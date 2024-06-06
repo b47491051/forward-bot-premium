@@ -12,7 +12,7 @@ class Config:
     BOT_SESSION = os.environ.get("BOT_SESSION", "forward-bot-premium") 
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://pikujha69:2HoYeUDPRJCwvXvE@cluster0.rnn5bqv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DB_NAME = os.environ.get("DB_NAME", "Stubborn")
-    OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '').split()]
+    OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '5915548628').split()]
 
 
 class temp(object): 
